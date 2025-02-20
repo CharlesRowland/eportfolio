@@ -1,0 +1,43 @@
+{% load static %}
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+h1 {
+	background-color: #FCF536;
+	font-family: "Agdasima", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	color: #F1EFF1;
+	background-color: #81127E;
+	font-size: 40px;
+	font-family: "Agdasima", system-ui;
+
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    background-color: #FCF536
+}
+
+p {
+
+	color: #81127E
+	font-family: "Agdasima", system-ui;
+
+}
+
+
+a:hover {
+  background-color: #F1EFF1;
+}
+
+
+tr:hover {background-color: #F1EFF1;}
+</style>
+</head>
+<body>
+

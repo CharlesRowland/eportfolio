@@ -1,0 +1,119 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en"
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code about the website NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Your Name">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes"
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Charles's Screenprinting Project</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="{% static 'core/style.css' %}">
+        <!--
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
+            file name to find this code that you'll write/edit there.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+
+
+    </body>
+</html>
+
+<nav>
+    <ul>
+<li><a href="blackbox.html">Black Box Investigation</a></li>
+    </ul>
+</nav>
+<h1>Screenprinting Project - Charles Rowland</h1>
+
+<h2>Introduction</h2>
+
+<p>	Have you ever thought about creating an art piece that reflected something bigger? In this screen printing project, I created an artwork that reflects encouragement and passion in an academic environment to help students push themselves further. The artwork was simple: A picture of myself in an environment with many academic materials like textbooks, computers, text saying “GROW STRONG, TAKE YOUR TIME” and pencils. I was completely red and the materials were blue. Although this may seem like a simple screenprint, the process was complex. First off, I had to create a concept document to outline the desired process of creating the screenprint. Then, I had to take pictures of myself according to the outline. Next, I had to load the pictures into photoshop and edit them in the way I wrote them in the concept document. After some finalization of the photoshopping process, I then put the photos into a software called Adobe Illustrator, where I input the dimensions of the photos in order to measure and create the frame. After that, to assemble the frame I had to cut out the pieces with the edges at a 45 degree angle so they could be stapled and glued together and make sure they were corresponding with the Illustrator dimensions. Next up, I had to cut out a screen 3 inches larger than the inner length and height dimensions of the frame in both ways. I did this for both frames. To make sure I could attach the screens onto the wood frames, I stapled them carefully and made sure they were tight. </p>
+
+<h2>Photoshoot</h2>
+
+<p>According to my concept document, the desired photograph is myself sitting at a table with supplies surrounding me, representing an academic environment. For my design, the camera was positioned at a 15 degree angle so I am slightly appeared to be towering over the camera, this supported my meaning, as in one who tries hard to achieve what they want, they have power to initiate and to execute. The shot was going to be taken at a medium-wide standpoint, in which only half my body was going to be shown. The primary attention would be my body in the image, and the materials secondary. The camera settings were set at F22 aperture and the ISO sensitivity from medium to high brightness. I first helped my group take some of their pictures, and then they helped take my pictures.</p>
+
+<img src="{% static 'core/Photo4ByMariam.JPG' %}" alt="Photo" width="500">
+
+<p>At first, the desired camera values on the concept document were inputted, but then, I realized the light sensitivity was way too high. The very first few images came out in a bright white due to this, which did not meet my expectations according to the document. To resolve this, I had to lower the ISO value a lot. It took a few photos to find the optimal one to use, but eventually I had success.</p>
+
+<img src="{% static 'core/Photo3ByGrant.JPG' %}" alt="Photo" width="200">
+<img src="{% static 'core/Photo5ByCharles.JPG' %}" alt="Photo" width="200">
+
+<p>Here are the photos taken by my group mates for their design. The first represents a heart, and the other represents a celebrity avoiding paparazzi. There had to be many photos taken for all of us to find the perfect one, but we all worked together to fulfill our ideas.</p>
+
+<h2>Photoshop</h2>
+
+<p> The optimal image chosen from the photoshoot was then loaded into Photoshop. The main goal was to make my entire body a solid red and the materials around me a solid blue. It was designed to be very simplistic. The first step of editing the photo was completely removing the background, in which it was not relevant. I did this by using the lasso tool in photoshop.</p>
+
+<img src="{% static 'core/Charlesphoto.png' %}" alt="Photo" width="200">
+<img src="{% static 'core/Charlesphoto2.png' %}" alt="Photo" width="200">
+
+<p>The next step of editing the photo was making myself red and the materials blue. I did this by separating myself from the materials and background using the lasso tool to cut out everything into layers. To make the materials blue and myself as a red figure, I used the cut out layers I had and used the fill tool to cover everything in the correct color.  The text, “GROW STRONG, TAKE YOUR TIME,” I had on both layers of the red and blue parts, the text was originally supposed to be a separate color and layer, but I learned in later steps that it was inefficient and timely.</p>
+
+<h2>Illustrator</h2>
+
+<p>After the completion of the photoshop phase, I exported the edited photoshop files as PNG files to import into Adobe Illustrator. This is where I would add all the needed dimensions for the frame, screen, and vinyl. These dimensions for my screen printing process covered dimensions for 3 screens. I would use these dimensions to then move on to the next step.</p>
+
+<h2>Woodshop</h2>
+
+Woodshop
+	The next step of my screen printing process was to cut the wood according to the Adobe Illustrator dimensions. I used the wood supply in my classroom and saw to perform this. First was the frame, in which it was made of the wood being used. I started by cutting a 45 degree angle off the edge of the wood, this was because the wood frame pieces must connect equally and easily. Then, according to the dimensions in Adobe Illustrator, I started measuring the inner and outer dimensions and edges, as both are very significant to outputting the correct frame. After doing this with multiple pieces of wood that were optimal for the dimensions and iterations, I began cutting the wood. I did this using an electric saw and lining it up with the 45 degree markings of the wood to correspond with the correct dimensions.
+
+After this, I used Gorilla Glue and staples to then connect the pieces of wood together. I did this by collecting the wood of each frame that corresponded with each other. Then, I applied glue to pieces of the first frame and placed them together. To truly lock it in for drying, durability, and reliability, I took a staple gun and with the help of some team mates, I applied staples to each joint of the frame, holding it in place.
+
+<img src="{% static 'core/IMG_5053.JPG' %}" alt="Photo" width="300">
+<img src="{% static 'core/IMG_5056.JPG' %}" alt="Photo" width="300">
+
+<h2>Screen</h2>
+
+<p>The next step of the process was the screen. The screen was made up of a white stretchy material. This material was used to cover the wood frame for preparation of the print. To do this, I had to take measurements of the inner dimensions of both wood frames, add 3 inches to every dimension taken of each frame, then with a ruler, I had to draw a cutout according to the dimensions to wrap around the screen. After cutting it out, I began the process with the help of a teammate by holding the edges of the screen around the frame as hard as possible, then a teammate stapled it in place. I repeated this process and removed all loose spots on the screen.
+For the last step, I took blue masking tape and put it over all staples.</p>
+
+<h2>Prepping the Stencils</h2>
+
+<p>The next step up was prepping stencils to go onto my screenprint. This was done with a program called Silhouette Studio. This program connected to a machine that cut out outlines onto a material for wreathing out to put paint. The process was to first upload the edited PNG to the program, then correct the PNG with the proper illustrator dimensions that correspond to each other. After this, I uploaded the image to the machine, and after it finished cutting I took a sharp tool and made the stencil. The parts that were cut out were the parts that paint was going to go into, so I had to be very careful about what was going to be cut out and what was not.</p>
+
+<img src="{% static 'core/IMG_5001.JPG' %}" alt="Photo" width="200">
+<img src="{% static 'core/IMG_5002.JPG' %}" alt="Photo" width="200">
+
+<h2>Ironing</h2>
+
+<p>After cutting out the stencil, the next step was to iron them onto the screen. To do this, I placed the stencil on the clear plastic side up, then I took a small heated iron and began to set it on the screen. Since my screen was very big, it was difficult to get the entire thing to adhese and I even had to take it home and attend office hours to finish it. After getting it to adhese, I took off the plastic cover and applied tape to the areas vulnerable to leaking paint so that only what I cut out paint was going to go through.</p>
+
+<h2>Reflection and What I Learned</h2>
+
+<p>The thing I enjoyed most about this project was decision making and critical thinking for those decisions. I was most effective at efficiently making decisions in short time spans that later helped me on a major scale. I helped many as others helped me during the process of the project, and was one of the things about the process that helped me push through. The biggest, most challenging obstacle of this project was the constraints of time and being able to finish major steps in just a mere amount of time. I made some off-setting decisions that ceased some parts of the project making process as well, and unfortunately these very issues led me to not fully finish the process, but I did get close. I overcame some of these obstacles by using extra time I had, making new decisions along the way to keep going–ironically going with the message of the screen print I had designed. I could not have helped overcome these obstacles as fast as I did without the help of others, who took their own project time to contribute to mine by helping me with steps they had already done. The methods used to make this project have the potential to be very useful for future projects in or outside of school, like making a portfolio for a mechanical design project for my future mechanical design career and to give myself a good look for colleges I hope to possibly attend in the future. I hope to continue to grow more as a learner by the things about using time management for projects, having a good initiative, and to keep my head up and to not give up. The 21st century skill I feel I grew most during this project was having initiative, self direction, and accountability. Specifically managing time and resources to produce high quality results in a timely manner. I feel I was at least competent in this area. I was able to set and meet high standards for myself and others in this area by distributing the labor of the project into equal days, no matter how difficult, in which I believed consistency was the optimal way to use up time in this project. I was not quite 100% productive each day, some days I gave more effort than others because on some days there would be a failure and I would nearly give up. Next time to increase productivity, I must watch how I abide by the criteria and constraints to not give myself a huge load of work that does not demotivate me and to follow all steps clearly without rushing. To keep myself on track for this project, the method I used was to distribute the tasks into days to finish what was needed. I missed a few deadlines, such as not finishing the painting stage and not getting the final images in. I did feel rushed at the end of this project, since I had nearly only a day left to finish it, and I missed that one day and therefore could not complete it. In the future, I could plan more efficiently when dealing with a large project with spaced out intervals to prevent burn out, and making reasonable goals to complete what must completed in order to finish the project with good quality.</p>
