@@ -11,3 +11,6 @@ def screenprint(request):
 
 def blackbox(request):
     return render(request, "core/blackbox.html")
+
+def aboutme(request):
+    return render(request, "core/aboutme.html")
